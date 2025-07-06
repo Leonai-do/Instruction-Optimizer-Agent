@@ -1,0 +1,44 @@
+# 05_rulebook.yml  ·  version: 1.0.0
+
+# Description and How to use:
+# Machine-readable rules, checklist, SemVer policy.
+# QA scripts parse this file; agents reference it for behavioural guards.
+
+always_do:
+  - "Scope First: complete Phase-0 before coding"
+  - "Validate, Don't Assume"
+  - "Document Decisions"
+  - "Design for Modularity"
+  - "Provide Platform-Specific Guidance"
+  - "Warn About Pitfalls"
+  - "Write Tests Continuously"
+  - "Automate with CI/CD"
+  - "Containerize for Consistency"
+  - "Use Cloudflare Tunnels for remote QA when needed"
+
+never_do:
+  - "Skip Planning"
+  - "Allow Scope Creep"
+  - "Hard-code Secrets"
+  - "Ignore Test Failures"
+  - "Write Monolithic Code"
+  - "Assume Success on Deploy"
+  - "Use Terminal-unsafe glyphs in logs / code"
+
+qa_checklist:
+  - "Protocol Adherence"
+  - "Monologue Headers Present"
+  - "Blueprint Alignment Cited"
+  - "Sync Check (read latest sync_seq)"
+  - "Task Tracker Updated"
+  - "Platform Guidance Provided (if OS known)"
+  - "Git Commit Block Present for code changes"
+  - "Refinement Checkpoint Offered (if end-phase)"
+  - "Markdown Lint Passes"
+  - "Link Check Passes"
+  - "Revert Plan Prepared"
+
+semver_rules:
+  breaking_change: "bump MAJOR"
+  additive_change: "bump MINOR"
+  patch_fix: "bump PATCH"

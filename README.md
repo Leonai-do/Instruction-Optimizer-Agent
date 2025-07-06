@@ -86,7 +86,9 @@ instructions/
 
 ## 🛡️ License
 
-* **Docs** – CC BY-SA 4.0  
-* **Code (assemble.py)** – MIT
+| Scope | License | File |
+|-------|---------|------|
+| **Code & scripts** | MIT | `/LICENSE` |
+| **Documentation**  | CC BY-SA 4.0 | `/LICENSE_DOCS` |
 
 ---

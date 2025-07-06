@@ -56,7 +56,7 @@ instructions/
 2. **Edit exactly one file**—keep diffs atomic.  
 3. **Bump the version header** in the changed file per `semver_rules` in `05_rulebook.yml`.  
 4. **Update `CHANGELOG.md`** with a concise entry.  
-5. **Run local QA** (Markdown, YAML, assemble test).  
+5. **Run local QA** (Markdown, YAML).  
 6. **Open a PR**—the Optimizer Agent (or a human) will run `/autocritique`.  
 7. **Merge after approval**. CI tags the repo: `vX.Y.Z`. 🚀
 

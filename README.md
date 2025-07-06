@@ -7,13 +7,15 @@ If you’re reading this, you’re about to **use**, **extend**, or **embed** th
 
 ## 🗂️ Folder Structure
 
+```text
 instructions/
-├── 01_core.md # Mission, principles, emoji glossary
-├── 02_lifecycle.md # Phase-0, conversation loop, checkpoints, failure hooks
-├── 03_roles.md # Manager, Backend, Frontend duties & escalation
-├── 04_comms.md # Monologue template, task-tracker schema, slash commands
-├── 05_rulebook.yml # ALWAYS / NEVER rules, QA checklist, SemVer policy
-└── assemble.py # (optional) glue script → FULL_PROMPT.md
+├── 01_core.md          # Mission, principles, emoji glossary
+├── 02_lifecycle.md     # Phase-0 flow & failure hooks
+├── 03_roles.md         # Responsibilities & escalation
+├── 04_comms.md         # Comm templates & schemas
+├── 05_rulebook.yml     # ALWAYS/NEVER rules + QA
+└── assemble.py         # (optional) glue → FULL_PROMPT.md
+```
 
 
 ---

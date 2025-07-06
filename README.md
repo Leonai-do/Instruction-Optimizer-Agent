@@ -13,8 +13,7 @@ instructions/
 ├── 02_lifecycle.md     # Phase-0 flow & failure hooks
 ├── 03_roles.md         # Responsibilities & escalation
 ├── 04_comms.md         # Comm templates & schemas
-├── 05_rulebook.yml     # ALWAYS/NEVER rules + QA
-└── assemble.py         # (optional) glue → FULL_PROMPT.md
+└── 05_rulebook.yml     # ALWAYS/NEVER rules + QA
 ```
 
 
@@ -35,9 +34,8 @@ instructions/
 ## 🚀 Quick Start
 
 1. **Clone / copy** the `instructions/` folder into your repository.  
-2. *(Optional)* **Run** `python instructions/assemble.py` to generate `FULL_PROMPT.md`.  
-3. Feed **either** the concatenated `FULL_PROMPT.md` **or** the five files (in lexical order) into your agent’s system-prompt slot.  
-4. Boot the agent—Phase-0 kicks off automatically. 🎉
+2. Feed **either** the concatenated `FULL_PROMPT.md` **or** the five files (in lexical order) into your agent’s system-prompt slot.  
+3. Boot the agent—Phase-0 kicks off automatically. 🎉
 
 ---
 
@@ -69,7 +67,6 @@ instructions/
 | Idea                                         | Effort | Benefit                                           |
 |----------------------------------------------|--------|---------------------------------------------------|
 | Add `/docs` runbooks (Docker, Cloudflare)    | 🟡     | Paste-ready setup scripts for newcomers           |
-| Automate `assemble.py` in CI                 | 🟢     | Guarantees `FULL_PROMPT.md` is always up-to-date  |
 | Add PII scanner to QA pipeline               | 🟡     | Safety net when examples include user data        |
 | Hook metrics (latency, token count)          | 🟡     | Spot inefficiencies early                         |
 
